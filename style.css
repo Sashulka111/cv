@@ -45,7 +45,7 @@ section{
 .main-title{
     padding-top: 67px;
     color: #2B2D35;
-    font-size: 80px;
+    font-size: 58px;
 }
 .main-subtitle{
     color: #2B2D35;
@@ -71,4 +71,17 @@ section{
 }
 .button:hover{
     background: #a0d826;
+}
+.main-content{
+    z-index: 2;
+}
+.planet{
+    background: url(img/planet.png);
+    background-repeat: no-repeat;
+    width: 405px;
+    height: 330px;
+    transform: rotate(-176deg);
+    position:absolute;
+    right:20px;
+    z-index: 1;
 }
