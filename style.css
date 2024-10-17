@@ -105,3 +105,50 @@ section{
     animation-iteration-count: infinite;
     animation-direction:alternate;
 }
+.title{
+    padding-top: 100px;
+    text-align: center;
+    color:#FFF;
+    font-size:80px;
+    text-shadow: 5px 5px 0 black;
+}
+.about-content{
+width:35%;
+height:270px;
+padding-left: 40px;
+padding-top: 40px;
+background-color:#792AFF;
+position:relative;
+display:flex;
+border-radius: 0 0 0 20px;
+}
+.about-title{
+    color:#FFF;
+    font-size:20px;
+    max-width: 463px;
+    margin-bottom: 20px;
+    font-family:'Comfortaa';
+}
+.about-card{
+    background-image: url(img/form2.png);
+    background-repeat:no-repeat;
+    width:376px;
+    height:346px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-top: 20px;
+    position:relative; 
+}
+.about-card p{
+    color:#000;
+    font-size: 17px;
+    align-self:start;
+    padding-left:20px;
+    line-height:25px;
+    font-family: 'Comafortaa';
+}
+.about-card img{
+    padding-bottom: 20px; 
+}
