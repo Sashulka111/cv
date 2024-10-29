@@ -313,9 +313,16 @@ nav{
     justify-content:center;
     align-items:center;
     margin-right:20px;
+    transition-duration: 0.3s;
 }
 .logo{
     color: #BBFF2C;
     font-size: 80px;
     padding-left: 50px;
+}
+.nav-link:hover{
+    background-color:#BBFF2C;
+}
+.active{
+    background-color:#BBFF2C;
 }
