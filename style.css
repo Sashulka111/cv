@@ -339,7 +339,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 200px;
+    width: 200px;
 }
 
 .comment-card h3{
